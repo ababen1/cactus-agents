@@ -5,7 +5,6 @@ from crewai_tools import SerperDevTool
 import crewai.llms.cache as _crewai_cache
 _crewai_cache.mark_cache_breakpoint = lambda msg: msg
 
-
 class CactusNewsRoom:
     def __init__(self):
         # 1. Load hidden API keys from the .env file
